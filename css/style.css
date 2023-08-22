@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+.header::after{
+content: "";
+display: table;
+clear: both;
+}
+
+.firsthead{
+    background-color: #f7f4f4;
+    overflow: auto;
+}
+
+
+.firsthead a{
+    float: left;
+    padding: 20px 0px 20px 30px;
+    color: #666;  
+}
+
+.firsthead:hover a{
+text-decoration: underline;
+}
+
+.firsthead a:last-child{
+   color: #0056c1;
+   background-color: #ededed;
+   border-radius: 30px;
+   border: 2px solid #0056c1;
+   padding: 5px 9px 5px 9px;
+   margin: 12px 17px;
+   text-decoration: none;
+}
+
+.firsthead a:last-child:hover{
+    background-color: #0056c1;
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.secondhead img{
+    width: 9%;
+    height: 55px;
+    margin: 20px 20px;
+}
+
+.secondhead a{
+    padding: 22px;
+}
+
+.thirdhead a{
+    float: left;
+    padding: 20px 0px 20px 30px;
+    color: #17253a;
+}
+
+.tekliflerimiz-body {
+    margin-top:20px;
+    margin-left: 60px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.block {
+    text-align: center;
+    padding: 20px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tekliflerimiz-body{
+    font-size: 30px;
+}
+
+.block h3{
+    color: #262626;
+    font-size: 20px;
+}
+
+.block p{
+    color: #666;
+    font-size: 15px;
+    margin-top: 14px;
+}
+
+.block a{
+    color: #262626;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.block img {
+    flex: 1; 
+    max-width: 90%;
+    height: auto;
+}
